@@ -1,6 +1,6 @@
 # Program to Find Armstrong Number in an Interval
 num = int(input("Enter number:"))
-for number in range(0, num):
+for number in range(0, num +1):
     sum = 0
     length = len(str(number))
     for digit in str(number):
