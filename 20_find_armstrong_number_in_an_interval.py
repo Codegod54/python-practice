@@ -9,4 +9,4 @@ for number in range(0, num):
         sum = sum + power_of_digit
 
     if sum == number:
-        print("The number is armstrong number:", number)
+        print("The number's are armstrong number:", number)
