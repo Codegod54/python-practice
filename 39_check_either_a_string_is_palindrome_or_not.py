@@ -2,8 +2,8 @@
 
 word = str(input("Enter a string:"))
 
-reverseword = word[::-1]
-
+reverseword = word[:: -1]
+print(reverseword)
 if reverseword == word:
     print("The string is palindrome", word)
 else:
